@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--Ismael Chacón Toledo-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="style.css">
+    <title>Pig Latin Project</title>
+    <script src="script.js"></script>
+    
+  </head>
+  <body>
+    <header>
+      <hr> <h1> <center> Pig Latin </h1> </center> <hr>
+      
+      <h2> ¿Como se juega? </h2>
+      <h4>Pig Latin es un juego de lenguaje construido. El objetivo de Pig Latin es modificar las palabras en inglés de una manera determinada para que, al hablar, suene como un idioma extranjero. En Pig Latin, se toma la primera consonante de la palabra inglesa y se la coloca al final y luego se agrega -ay. </h4>
+        <center><img src="mscott.gif" style="border: 5px solid #000;" width="500" height="251">
+    </header> </center> <br> 
+    <center><table>
+			<tr>
+				<td><b>   Palabras   </b></td>
+				<td><b>     Traducción a PigLatin   </b></td>
+			<tr>
+				<td>Hello</td>
+				<td>ellohay</td>
+			<tr>
+				<td>book</td>
+				<td>ookbay</td>
+			<tr>
+				<td>cat</td>
+				<td>atcay</td>
+			<tr>
+				<td>dog</td>
+				<td>ogday</td>
+      <tr>
+				<td>apple</td>
+				<td>appleyay</td>
+      <tr>
+				<td>just</td>
+				<td>ustjay</td>
+		</center></table>
+    <hr/>
+    <div id="inputContainer">
+      <label for="pigLatin"><center><h1> ¡Pruébalo!</h1><h3>Escribe una o más palabras en el traductor (en inglés):</h3></label><br>
+      <input id="wordInput" name="wordInput" style="font-size: 25px; value=""><br> 
+      <p></p><button onclick="translateToPigLatin()" style="font-size: 30px; type="button" id="translate-pl">Traducir</button>       </center> 
+      <center><div id="showTranslation" style="font-size: 30px; font-family: 'Arial', cursive;"></h</div></center>
+    </div>
+    <hr/>
+  </body>
+</html>

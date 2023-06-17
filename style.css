@@ -1,0 +1,43 @@
+body{
+  background-image: url('fondoPro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 1% 25% 1% 25%;
+  font-family: 'Poppins', sans-serif;
+  color:#ffffff;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Oswald', display;
+    
+}
+  
+table {
+	border-collapse: coll;
+	text-align:center;
+}
+
+td, th {
+  border: white 1px solid;
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Oswald', display;
+}
+h3{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+h4{
+  text-align: justify;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+   
+
